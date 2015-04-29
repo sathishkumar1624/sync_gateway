@@ -11,12 +11,13 @@ package db
 
 import (
 	"encoding/json"
-	"github.com/couchbaselabs/walrus"
 	"net/http"
 	"strings"
 	"time"
 
-	"github.com/couchbaselabs/go-couchbase"
+	"github.com/couchbaselabs/walrus"
+
+	"github.com/couchbase/go-couchbase"
 
 	"github.com/couchbase/sync_gateway/auth"
 	"github.com/couchbase/sync_gateway/base"
